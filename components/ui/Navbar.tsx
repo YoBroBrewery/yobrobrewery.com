@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
             >
               <Image
                 src={logo}
-                alt='CodeDevils Logo'
+                alt='Yo Bro Brewery Logo'
                 height={100}
                 width={100}
               />
