@@ -25,7 +25,7 @@ const Footer = () => {
               <Image src={logo} alt='Yo Bro Brewery' width={80} height={80} />
             </Link>
             <p className='my-2 text-sm text-white/80 md:mb-0 md:mt-2 md:w-7/12'>
-              Yo Bro Brewery is a brewery based in scottsdale, Arizona. We are a
+              Yo Bro Brewery is a brewery based in Fountain Hills, Arizona. We are a
               team of passionate brewers who love to make beer.
             </p>
           </div>
@@ -39,7 +39,7 @@ const Footer = () => {
                 {[
                   ['About', '/about'],
                   ['Leadership', '/about/#leadership'],
-                  ['Contact', '/contact'],
+                  ['Products', '/products'],
                 ].map(([title, url], key) => (
                   <li key={key} className='mb-4'>
                     <Link
