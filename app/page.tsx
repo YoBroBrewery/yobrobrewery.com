@@ -13,9 +13,9 @@ export default function Home() {
             Yo Bro Brewery 🍺
           </h1>
           <p className='mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto'>
-            Yo Bro Brewery is a brewery based in scottsdale, Arizona. We are a
-            team of passionate brewers who love to make beer. We are a team of
-            passionate brewers who love to make beer.
+            Yo Bro Brewery is a new brewery based in Fountain Hills, Arizona. We are 
+            a team of passionate brewers who love to make beer. Our grand opening is
+            planned to be in June of 2024.
           </p>
         </div>
       </div>

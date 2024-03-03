@@ -146,30 +146,6 @@ const Footer = () => {
               <Link
                 className='text-white transition-colors duration-200 ease-in-out hover:text-maroon'
                 target='_blank'
-                href='https://www.facebook.com/yobrobrewery'
-              >
-                <span className='h-4 w-4'>
-                  <FaFacebookSquare />
-                </span>
-                <span className='sr-only'>Facebook</span>
-              </Link>
-            </li>
-            <li>
-              <Link
-                className='text-white transition-colors duration-200 ease-in-out hover:text-maroon'
-                target='_blank'
-                href='https://www.twitter.com/yobrobrewery'
-              >
-                <span className='h-4 w-4'>
-                  <FaTwitter />
-                </span>
-                <span className='sr-only'>Twitter</span>
-              </Link>
-            </li>
-            <li>
-              <Link
-                className='text-white transition-colors duration-200 ease-in-out hover:text-maroon'
-                target='_blank'
                 href='https://github.com/YoBroBrewery/yobrobrewery.com'
               >
                 <span className='h-4 w-4'>
@@ -182,7 +158,7 @@ const Footer = () => {
               <Link
                 className='text-white transition-colors duration-200 ease-in-out hover:text-maroon'
                 target='_blank'
-                href='https://www.youtube.com/yobrobrewery'
+                href='https://www.youtube.com/@YoBroBrewery'
               >
                 <span className='h-4 w-4'>
                   <FaYoutube />
