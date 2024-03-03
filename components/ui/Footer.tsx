@@ -25,33 +25,6 @@ const Footer = () => {
               team of passionate brewers who love to make beer.
             </p>
           </div>
-          <div className='grid  gap-8  sm:gap-6 grid-cols-2 sm:grid-cols-3'>
-            {/* grid-cols-2 sm:grid-cols-3 */}
-            <div className='invisible'>
-              <h2 className='mb-6 text-sm font-semibold uppercase text-white'>
-                Organization
-              </h2>
-              <ul className='font-medium text-white'>
-                {[
-                  ['About', '/about'],
-                  ['Leadership', '/about/#leadership'],
-                  ['Products', '/products'],
-                ].map(([title, url], key) => (
-                  <li key={key} className='mb-4'>
-                    <Link
-                      aria-label={`Learn more about Yo Bro Brewery by heading to ${title}`}
-                      href={url as string}
-                      className='hover:text-maroon hover:underline'
-                    >
-                      {title}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            {}
-            {}
-          </div>
         </div>
         <hr className='my-6 border-gray-500 sm:mx-auto lg:my-4' />
         <div className='mx-auto w-full max-w-screen-2xl sm:flex sm:items-center sm:justify-between'>
