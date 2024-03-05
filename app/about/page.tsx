@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import Image from 'next/image'
 import { motion } from 'framer-motion';
 import { LampContainer } from '@/components/ui/lamp';
 
@@ -20,9 +21,9 @@ export default function About() {
           Our Team
         </motion.h1>
       </LampContainer>
-      <div className='flex flex-row flex-wrap items-start'>
+      <div className='flex flex-row flex-wrap items-start justify-center'>
         <div className='flex flex-col m-10 p-3 max-w-sm bg-slate-700 rounded-lg'>
-          <img className='rounded-lg' src='./vinny_profile.webp' alt="Vinny the brewer"></img>
+          <Image width={500} height={500} className='rounded-lg' src='/vinny_profile.webp' alt='Vinny the brewer'></Image>
           <p className='mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto'>
             "Yo Bro Brewing is our passion for beer; it's our take at building something together as
             friends. We've started from scratch, we've gone deep into unknown waters (with yeast, and
@@ -33,7 +34,7 @@ export default function About() {
           </p>
         </div>
         <div className='flex flex-col m-10 p-3 max-w-sm bg-slate-700 rounded-lg'>
-          <img className='rounded-lg' src='./nick_profile.webp' alt="Nick the brewer"></img>
+          <Image width={500} height={500} className='rounded-lg' src='/nick_profile.webp' alt='Nick the brewer'></Image>
           <p className='flex mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto'>
             "Any dedicated brewer will tell you that it takes immense hard work and heart to brew a fine beer at Yo
             Bro Brewery we agree. In an industry where the product is king, countless hours of research need to be
@@ -47,7 +48,7 @@ export default function About() {
           </p>
         </div>
         <div className='flex flex-col m-10 p-3 max-w-sm bg-slate-700 rounded-lg'>
-          <img className='rounded-lg' src='./jason_profile.webp' alt="Jason the brewer"></img>
+          <Image width={500} height={500} className='rounded-lg' src='/jason_profile.webp' alt='Jason the brewer'></Image>
           <p className='flex mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto'>
             "Science has been a passion of mine since I was a child. Ever since I can remember I have been striving to
             learn and improve. Constantly looking for a worthwhile avenue to invest my time in and strive for greatness.
