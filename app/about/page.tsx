@@ -23,20 +23,22 @@ export default function About() {
       </LampContainer>
       <div className='flex flex-row flex-wrap items-start justify-center'>
         <div className='flex flex-col m-10 p-3 max-w-sm bg-slate-700 rounded-lg'>
+          <h2 className='mb-2 font-bold text-neutral-300'>Vincent Tereso</h2>
           <Image width={500} height={500} className='rounded-lg' src='/vinny_profile.webp' alt='Vinny the brewer'></Image>
           <p className='mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto'>
-            "Yo Bro Brewing is our passion for beer; it's our take at building something together as
+            <q>Yo Bro Brewing is our passion for beer; it's our take at building something together as
             friends. We've started from scratch, we've gone deep into unknown waters (with yeast, and
             malt, and hops) to figure out what works and what doesn't work. Anything great takes time
             and the fermentation process is an art. Running a business isn't easy, there's always more
             work to be done, but make sure you stick with your bros and talk shit over a beer. Follow
-            the golden rule (use Pilsner malt)!" -&nbsp;Vinny
+            the golden rule (use Pilsner malt)!</q>
           </p>
         </div>
         <div className='flex flex-col m-10 p-3 max-w-sm bg-slate-700 rounded-lg'>
+          <h2 className='mb-2 font-bold text-neutral-300'>Nicolas DeAssis</h2>
           <Image width={500} height={500} className='rounded-lg' src='/nick_profile.webp' alt='Nick the brewer'></Image>
           <p className='flex mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto'>
-            "Any dedicated brewer will tell you that it takes immense hard work and heart to brew a fine beer at Yo
+            <q>Any dedicated brewer will tell you that it takes immense hard work and heart to brew a fine beer at Yo
             Bro Brewery we agree. In an industry where the product is king, countless hours of research need to be
             dedicated to even the smallest of processes to ensure all the details are tuned perfectly to make every
             brew day successful in resulting in the best-tasting beer possible time and time again. Add running a
@@ -44,18 +46,19 @@ export default function About() {
             and demanding. Here at Yo Bro Brewery, we strongly believe leveraging organization not only as a
             mantra but as a tool gives us the greatest opportunity at achieving our goal. At
             the end of the day, our goal here at Yo Bro Brewery is to passionately ensure all our clients have a
-            delicious, refreshing, and well-crafted brew to enjoy amongst friends." -&nbsp;Nick
+            delicious, refreshing, and well-crafted brew to enjoy amongst friends.</q>
           </p>
         </div>
         <div className='flex flex-col m-10 p-3 max-w-sm bg-slate-700 rounded-lg'>
+          <h2 className='mb-2 font-bold text-neutral-300'>Jason Michelson</h2>
           <Image width={500} height={500} className='rounded-lg' src='/jason_profile.webp' alt='Jason the brewer'></Image>
           <p className='flex mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto'>
-            "Science has been a passion of mine since I was a child. Ever since I can remember I have been striving to
+            <q>Science has been a passion of mine since I was a child. Ever since I can remember I have been striving to
             learn and improve. Constantly looking for a worthwhile avenue to invest my time in and strive for greatness.
             Yo Bro is that avenue. Where precision measurements and experimentation are at the forefront of our process.
             Iterating on something for thousands of hours and nearing perfection, but never quite reaching it.
             A process I aim to follow for the rest of my life. Creating beer that I can proudly drink.
-            We will never be satisfied and that is our biggest strength as brewers." -&nbsp;Jason
+            We will never be satisfied and that is our biggest strength as brewers.</q>
           </p>
         </div>
       </div>
