@@ -8,7 +8,7 @@ export default function Home() {
           className='-top-50 left-0 md:left-60 md:-top-20'
           fill='white'
         />
-        <div className=' p-4 max-w-7xl  mx-auto relative  w-full pt-40 md:pt-20 md:pt-0'>
+        <div className='p-4 max-w-7xl  mx-auto relative  w-full pt-40 md:pt-20 md:pt-0'>
           <h1 className='text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50'>
             Yo Bro Brewery 🍺
           </h1>

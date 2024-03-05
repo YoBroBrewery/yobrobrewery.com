@@ -26,10 +26,10 @@ export default function About() {
           <h2 className='mb-2 font-bold text-neutral-300'>Vincent Tereso</h2>
           <Image width={500} height={500} className='rounded-lg' src='/vinny_profile.webp' alt='Vinny the brewer'></Image>
           <p className='mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto'>
-            <q>Yo Bro Brewing is our passion for beer; it's our take at building something together as
-            friends. We've started from scratch, we've gone deep into unknown waters (with yeast, and
-            malt, and hops) to figure out what works and what doesn't work. Anything great takes time
-            and the fermentation process is an art. Running a business isn't easy, there's always more
+            <q>Yo Bro Brewing is our passion for beer; it&apos;s our take at building something together as
+            friends. We&apos;ve started from scratch, we&apos;ve gone deep into unknown waters (with yeast, and
+            malt, and hops) to figure out what works and what doesn&apos;t work. Anything great takes time
+            and the fermentation process is an art. Running a business isn&apos;t easy, there&apos;s always more
             work to be done, but make sure you stick with your bros and talk shit over a beer. Follow
             the golden rule (use Pilsner malt)!</q>
           </p>
